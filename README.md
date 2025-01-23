@@ -1,6 +1,4 @@
-<p align="center">
-  <img src="/public/favicon.svg" width="50" alt="Logo" />
-</p>
+
 <h1 align="center">Personal portfolio</h1>
 
 <img width="1280" alt="Screenshot 2025-01-23 at 02 39 52" src="https://github.com/user-attachments/assets/e5bbee83-5254-4ee3-8889-84215f13bf39" />

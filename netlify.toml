@@ -1,17 +1,8 @@
 [build]
-command = "npm run build"
-publish = "build"
-base = "/"
-
-[[redirects]]
-from = "/api/*"
-to = "/.netlify/functions/:splat"
-status = 200
+command = "npm run build && npm run export"
+publish = "out"
 
 [[redirects]]
 from = "/*"
 to = "/index.html"
 status = 200
-
-[[plugins]]
-package = "@netlify/plugin-functions-install-core"
